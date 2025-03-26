@@ -16,7 +16,7 @@ __Features:__
 
 ### Usage:
 
-1. Navigate to the home page
+1. Go to the home page
 
 2. Choose your preferred brand, size, color, or just search through all shoes that are available by clicking the
 "SEARCH" button after making your decision(s).
