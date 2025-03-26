@@ -1,6 +1,6 @@
 # Shoe Store App
 
-If you run a shoe store and haven't expanded into cyber-space yet, then you might be interested to know that this
+If you run a shoe store and haven't expanded into cyberspace yet, then you might be interested to know that this
 application will help you manage your stock, as well as give your customers the opportunity to interface with your
 store from the comfort of their own home!
 
@@ -38,15 +38,15 @@ __Features:__
 
 * Add new shoes to your stock
 * When a sale is made, stock is automatically adjusted accordingly
-* Total is calculated, so the the customer would just need to be redirected to the appropriate checkout service.
+* The total is calculated, so the customer would just need to be redirected to the appropriate checkout service.
 
 ### Usage:
 
-1. Navigate to the home page
+1. Go to the home page
 
 2. Click on the "Admin" section on the navigation bar.
 
-3. Fill out the form.
+3. Complete the form with the required details.
 
 4. Submit the form by clicking the "ADD" button.
 
@@ -71,7 +71,7 @@ Want to contribute to and/or extend the application? Then this section's for you
 4. Run ` npm install ` or ` yarn ` in the project root. This will install all dependencies that are included in 
 the package.json.
 
-  Tools that are included in this app are:
+  This app includes the following tools:
   * Lodash / Lodash-CLI
   * Rollup
   * Rollup Buble plugin
@@ -89,13 +89,12 @@ http-server -c-1
 ## Using a Transpiler and Module Bundler
 
 This application is modular and written using ES6 standards. This makes for clean code, but has the unfortunate side-effect
-of not being browser-friendly. Most browsers understand a single JS file, written in ES5. Therefore, in order to make an app 
+of not being browser-friendly. Most browsers can only interpret a single JavaScript file written in ES5. Therefore, in order to make an app 
 browser friendly, while still maintaining a semblance of modularity, we introduce Rollup.
 
 Rollup is a module bundler. It processes all the modules in your project, and outputs a single javascript file that can be
-served to the browser. However, once again, Rollup is only a module bundler. Even though it does the work of outputting a
-single JS file for distribution, it does not (inherently) "translate" ES6 to the ES5 format necessary for the browsers to use.
-For this, we can use a transpiler, which will do the work of converting ES6 to the browser-friendly ES5.
+served to the browser. However, once again, Rollup is only a module bundler. Although Rollup creates a single JavaScript file for distribution, it does not inherently convert ES6 into the ES5 format required by browsers.
+To achieve this, we use a transpiler to convert ES6 into browser-friendly ES5.
 
 The transpiler used for this application is a rollup plugin called "Buble", which is made by the author of rollup.
 
